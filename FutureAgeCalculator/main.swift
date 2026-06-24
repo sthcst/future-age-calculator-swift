@@ -9,3 +9,6 @@ import Foundation
 
 print("Hello, World!")
 
+func ageInYear(birthYear: Int, targetYear: Int) -> Int {
+    return targetYear - birthYear
+}
